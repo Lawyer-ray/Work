@@ -14,7 +14,7 @@ How to use AliPay(International) in Wechat Browser ?
 
 给大家看看我们的流程图吧，具体怎么做的话，有官方文档可以参考。
 
-### 现在遇到了什么问题？What's the problem in project？
+### 现在遇到了什么问题？What's the problem in this project？
 
 就是在微信内调起Safari，Safari再去调起Alipay App，支付完成后，是无法回到微信了。这个时候我参考其他家的H5，提出了如下解决方案：
 
