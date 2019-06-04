@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>推送逻辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/推送逻辑/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/推送逻辑/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 推送逻辑 (Group) -->
+      <div id="u38" class="ax_default" data-label="推送逻辑" data-left="322" data-top="10" data-width="129" data-height="45">
+
+        <!-- 小红点逻辑 (Rectangle) -->
+        <div id="u39" class="ax_default _一级标题" data-label="小红点逻辑">
+          <div id="u39_div" class=""></div>
+          <div id="u39_text" class="text ">
+            <p><span>推送逻辑</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 小红点情况 (Group) -->
+      <div id="u40" class="ax_default" data-label="小红点情况" data-left="18" data-top="94" data-width="835" data-height="394">
+
+        <!-- 小红点概述 (Group) -->
+        <div id="u41" class="ax_default" data-label="小红点概述" data-left="18" data-top="94" data-width="835" data-height="82">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u42" class="ax_default _二级标题">
+            <div id="u42_div" class=""></div>
+            <div id="u42_text" class="text ">
+              <p><span>推送形式：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u43" class="ax_default _文本段落">
+            <div id="u43_div" class=""></div>
+            <div id="u43_text" class="text ">
+              <p><span>只推小程序消息模板，不推短信。</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 小红点概述 (Group) -->
+        <div id="u44" class="ax_default" data-label="小红点概述" data-left="18" data-top="224" data-width="835" data-height="264">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u45" class="ax_default _二级标题">
+            <div id="u45_div" class=""></div>
+            <div id="u45_text" class="text ">
+              <p><span>消息模板推送逻辑：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u46" class="ax_default _文本段落">
+            <div id="u46_div" class=""></div>
+            <div id="u46_text" class="text ">
+              <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">1、已经默认帮用户选择默认1天推送1次，如果用户修改了推送频率，则后端在推送时要注意到不同用户的频率限制条件（</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;color:#CC0000;">1.6版暂不让用户进行修改</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">）；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">2、用户点击推送的消息模板后，会</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">跳转至</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">【我关注的品牌】；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">3、因此推送要同时满足三个条件：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">①用户的推送频率限制；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">②PC推送的数据把用户的【我的】小红点点亮；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">③可用的消息模板（如果不可用，则继续累积推送条件，直到有可用的消息模板）；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">4、如果用户点击了品牌主页【当季上新】或【折扣上新】，则视为用户已经看过此列表中的所有商品。</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
